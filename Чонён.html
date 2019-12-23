@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeongyeon</title>
+<style>
+	body{ background: linear-gradient(to top,black, #4B0082, #0000CD, #4B0082); }
+
+.menu{
+	width: 1360px;
+	height: 80px;
+	background-color: #C0C0C0; 
+	position: absolute; top: 0; left: 0; bottom: 1px;
+}
+ .col-menu{ color: #9933FF ;}
+ .col-menu-members{ color: 	#7B68EE; } 
+
+.menu-word:hover{
+ transition-duration: 0.5s;
+color: #0000FF; 
+font-size: 31px;
+}
+.menu-word:active{ color: #FFFF00;
+transition-duration: 0.001s; }
+
+
+.border { border-style: solid;
+          border-width: 5px;
+          border-color: #4682B4;
+          border-radius: 10px;
+           }
+
+.inline{
+display: inline;
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 10px; 
+font-size: 30px;
+}
+  .f {font-size: 20px;}
+
+.bp{ color: #E0FFFF; }
+
+
+
+.dec-none{ text-decoration: none;}
+
+.img{ width: 300px;
+      height: 230px; }
+
+.p{ padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px; }
+
+ .hc { color: 	#66CDAA; }
+
+ .nameecolor{ font-size: 65px;
+ font-family: monotype corsiva;
+ color: 	#1E90FF;
+ margin-left: 140px; }
+
+ .m-r{ margin-right: 200px;  }
+ .m-t{ margin-top: 90px;}
+ .m-l{ margin-left: 200px; }
+ .m-b{ margin-bottom: 105px; }
+
+ .m-t2{ margin-top: 20px; }
+ .m-l2{ margin-right:  10px; }
+
+ .p-t2{ margin-top: 7px; }
+ .p-r2{ margin-right: 7px; }
+
+ .img-cen{ float: right;} 
+ .img-left{ float: left; }
+
+ .with{ width: 400px;
+         height: 260px;}
+
+ .with2 { width: 210px;
+ height: 300px; }        
+
+ .widtht{ font-size: 33px; }
+ .widtht2{ font-size: 22px; }
+
+
+.colormember{ color:  #191970;} 
+.colormember:active{ color: #008B8B; }
+
+
+
+ .div-momo{ position: absolute;
+ top: 130px;
+ left: 20px;
+ background: #c9f6ff;
+ border-style: solid;
+ border-color: #4B0082;
+ border-width: 3px;
+ }                                             
+ .imgmomo{ width: 160px;                     
+ height: 100px; }                                
+ .textmomo{   font-style: italic; 
+ font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093;
+ }
+
+.div-nayeon{ position: absolute;
+top: 410px;
+left:20px;  
+ background: #c9f6ff;
+ border-style: solid;
+ border-color: #4B0082;
+ border-width: 3px; }
+ .imgnayeon{ width: 160px;
+ height: 98px; }
+.textnayeon{ font-style: italic; 
+ font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093; }
+
+
+.div-sana{ position: absolute;
+top: 710px;
+left: 20px;
+ background: #c9f6ff;
+ border-style: solid;
+ border-color: #4B0082;
+ border-width: 3px;}
+.imgsana{ width: 160px;
+height: 92px; }
+.textsana{ font-style: italic; 
+ font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093;}
+
+
+.div-mina{ position: absolute;
+top: 130px;
+right: 8px;
+background: #c9f6ff;
+border-style: solid;
+border-color: #4B0082;
+border-width: 3px; }
+.imgmina{ width: 170px;
+height: 100px; }
+.textmina{font-style: italic; 
+ font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093;}
+
+
+.div-dahyun{ position: absolute;
+top: 410px;
+right: 8px; 
+background: #c9f6ff;
+border-style: solid;
+border-color: #4B0082;
+border-width: 3px; }
+.imgdahyun{ width: 170px;
+height: 105px; }
+.textdahyun{ font-style: italic;
+font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093; }
+
+.div-jihyo{ position: absolute;
+top: 710px;
+right: 8px;
+background: #c9f6ff;
+border-style: solid;
+border-color: #4B0082;
+border-width: 3px; }
+.imgjihyo{ width: 170px;
+height: 107px; }
+.textjihyo{ font-style: italic;
+font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093;}
+
+.div-chaeyoung{ position: absolute;
+top: 1010px;
+left: 20px;
+background: #c9f6ff;
+border-style: solid;
+border-color: #4B0082;
+border-width: 3px; }
+.imgchaeyoung{ width: 170px; 
+height: 113px; }
+.textchaeyoung{ font-style: italic;
+font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093; }
+
+.div-tzuyu{ position: absolute;
+top: 1010px;
+right: 8px; 
+background: #c9f6ff;
+border-style: solid;
+border-color: #4B0082;
+border-width: 3px; }
+.imgtzuyu{  width: 170px; 
+height: 105px; }
+.texttyzuyu{ font-style: italic;
+font-size: 16px;
+text-align: center;
+font-weight: bold;
+color: #DB7093; }
+
+
+
+ 
+</style>
+
+
+</head>
+<body>
+<div class="menu">
+<ul>
+	<li class="inline "><a class="dec-none col-menu menu-word"  href="index.html">Twice</li>
+<li class="inline "><a href="https://www.youtube.com/playlist?list=PLzm9sEXjZ90feWaeV0XuOuRaQqLTHVKDv" class="dec-none col-menu menu-word">Songs</a></li>
+<li class="inline"><a href="Members.html" class="dec-none col-menu-members menu-word ">Members</a></li>
+<li class="inline"><a href="https://www.instagram.com/vovaholub/" class="dec-none col-menu menu-word">Write Us</a></li>
+</ul>
+</div>
+
+
+
+<p  class="f bp m-l border p m-r m-t">
+
+<img class=" img-cen with m-t2 m-l2" src="Чонён5.jpg" ><br>
+<a class="nameecolor">Jeongyeon</a><br>
+<a class="widtht2">Yoo Jeong-yeon (Hangul: 유정연 hanja: 俞定延; born 1 November 1996), better known mononymously as Jeongyeon, is a South Korean singer. She is a member of Twice, a South Korean girl group formed by JYP Entertainment.</a><br>
+<a class="widtht hc">Early life</a><br>
+<a class="widtht2"> Jeongyeon was born on 1 November 1996 as Yoo Kyung-wan in Suwon, Gyeonggi, South Korea. She is the younger sister of the actress Gong Seung-yeon</a><br>
+<a class="widtht hc"> Pre-debut</a><br>
+
+<img class=" img-left with2 p-t2 p-r2 m-t" src="Чонён6.jpg">
+
+<a class="widtht2">  Jeongyeon joined JYP Entertainment after passing the sixth open audition on 1 March 2010. She trained for five years before her debut with Twice. From 2013 to early 2015, it was expected that Jeongyeon would become a member of a new JYP girl group alongside current Twice members Nayeon, Sana, and Jihyo. However, this new project was cancelled and in the end they did not debut. In 2015, Jeongyeon competed in the television program Sixteen, a reality television competition designed to select the founding members of Twice. In the final episode, she was chosen as one of the nine winners who went on to form Twice.</a><br>
+<a class="widtht hc"> Twice and solo activities</a><br>
+<a class="widtht2"> In October 2015 Jeongyeon officially debuted as a member of Twice with their first extended play, The Story Begins. The lead single "Like Ooh-Ahh" was the first K-pop debut song to reach 100 million views on YouTube. Jeongyeon and her sister co-hosted the South Korean music program Inkigayo from July 2016 to January 2017, for which they both won the Newcomer Award at the 2016 SBS Entertainment Awards. In Gallup Korea's annual music poll, Jeongyeon was voted among the top 20 most popular idols in South Korea for three consecutive years from 2016 to 2018, alongside her bandmates Nayeon and Tzuyu.<br>
+<a class="widtht hc">Interesting facts</a><br>
+<a class="widtht2">1)  The leader of Twice was decided by anonymous voting. Jeongyeon was in 2nd place.<br>
+2)  Jeongyeon chose 0 as her favorite number, because she doesn’t actually have a favorite number.<br>
+3) Jeongyeon is in charge of cleaning the dorm. She likes cleaning.<br>
+4)Jeongyeon’s birth name is Yoo Kyung Wan. She changed her name in 3rd grade because she was teased because her name sounded like a boy’s name.<br>
+5)  Jeongyeon’s father Yoo Chang-joon was a private chef for former president Kim Dae-jung, as well as a head chef of the Seoul Plaza Hotel for over 20 years, specializing in Korean cuisine.</a></p>
+
+
+
+<div class="div-momo">
+<img class="imgmomo" src="Momo15.jpg">
+<p class="textmomo"><a class="colormember dec-none" href="Момо.html">Момо<br><br>
+Main singer, Vocalist,<br>
+ Rapper</a></p>	
+</div>
+
+<div class="div-nayeon">
+	<img class="imgnayeon" src="Nayeon15.jpg">
+<p class="textnayeon"><a class="dec-none colormember" href="Наён.html">Nayeon<br><br>
+Lead Vocalist, Lead<br>
+ Dancer, Center </a></p>
+</div>
+
+<div class="div-sana">
+<img src="Sana15.jpg" class="imgsana">	
+<p class="textsana"><a class="dec-none colormember" href="Sana.html" >Sana<br><br> Main Dancer, Vocalist 
+</a></p>
+</div>
+
+<div class="div-mina">
+<img class="imgmina" src="Mina15.webp">	
+<p class="textmina"><a href="Мина.html" class="dec-none colormember">Mina<br><br>Main Dancer, Vocalist</a></p>
+</div>
+
+<div class="div-dahyun">
+<img class="imgdahyun" src="Dahyun15.jpg">
+<p class="textdahyun" ><a class="dec-none colormember" href="Дахён.html"> Dahyun<br><br>Lead Rapper, Vocalist</a></p>	
+</div>
+
+<div class="div-jihyo">
+	<img src="Jihyo15.jpg" class="imgjihyo">
+	<p class="textjihyo"><a href="Jihyo.html" class="dec-none colormember"> Jihyo<br><br>Leader, Main Vocalist</a></p>
+</div>
+
+<div class="div-chaeyoung">
+<img src="Chaeyoung15.jpg" class="imgchaeyoung"> 
+	<p class="textchaeyoung"><a href="Чэён.html" class="dec-none colormember" > Chaeyoung<br><br>
+	Main Rapper, Vocalist</a></p>
+
+</div>
+
+<div class="div-tzuyu">
+	<img src="Tzuyu15.jpg" class="imgtzuyu">
+	<p class="texttyzuyu"> <a class="dec-none colormember" href="Цзыюй.html">Tzuyu<br><br>
+	Lead Dancer, Vocalist,<br>
+	 Visual, Maknae</a></p>
+</div>
+
+
+
+</body>
+</html>
